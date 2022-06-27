@@ -1,0 +1,122 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-bottom: 360px
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    
+  }
+  
+  
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  
+@media only screen and (min-width:992px){
+  .hide{
+    display: none;
+  }
+  .margintop{
+    
+  background-color: black;
+  padding-top: 20px;
+  height: 70px;
+  width: 100% !important;
+  }
+  .logo{
+    margin-left: 20px;
+    
+  }
+  
+  
+}
+.margintop{
+    
+  background-color: #E6E7E7;
+  padding-top: 20px;
+  height: 70px;
+  width: 100%;
+  }
+  .hide span{
+    margin-bottom: 100px;
+    margin-left: 10px;
+  }
+  @media only screen and (max-width:992px){
+    .sad{
+      display: none;
+      
+    }
+    .right{
+      margin-left: 30px;
+    }
+    
+    
+  }
+  
+  
+span{
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}
+.sad div{
+  color: black;
+  font-size: medium;
+  
+
+}
+.sad div:hover{
+  color: #37C673;
+  cursor: pointer;
+}
+.right img{
+  cursor: pointer;
+}
+

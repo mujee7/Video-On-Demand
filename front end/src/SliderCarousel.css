@@ -1,0 +1,22 @@
+@media only screen and (max-width:766px) {
+    .mySwiper1{
+        height: 160px !important;
+    }
+   
+    
+    
+}
+
+.mySwiper1:hover
+{
+
+    transform: scale(1.2);
+    z-index: 9;
+
+    border-radius: 20px !important;
+}
+
+.mySwiper1{ 
+    height: 224px;
+}
+
